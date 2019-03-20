@@ -4,7 +4,7 @@ const request = require('request');
 const morgan = require('morgan');
 
 //read .env
-require('dotenv').config();
+//require('dotenv').config();
 
 const cors = require('cors');
 const PORT = process.env.PORT || '5000';
