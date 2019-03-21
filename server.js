@@ -1,10 +1,10 @@
 const express = require('express');
 const request = require('request');
 
-//const morgan = require('morgan');
+const morgan = require('morgan');
 
 //read .env
-//require('dotenv').config();
+// require('dotenv').config();
 
 const cors = require('cors');
 const PORT = process.env.PORT || '5000';
@@ -18,7 +18,7 @@ const BOOK_SHOW_PATH = 'book/show/';
 
 app.use(cors());
 
-//.use(morgan('combined'))
+app.use(morgan('combined'))
 /*
 * Basic Server which call goodread API.
 * Only SUpported path 
