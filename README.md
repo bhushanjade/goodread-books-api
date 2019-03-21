@@ -1,6 +1,6 @@
 #### `NOTE : USE FOR DEVELOPMENT ONLY NOT FOR PRODUCTION.`
 ### [App Powered by GoodRead API](https://goodread-book-search.herokuapp.com/)
-### URL: https://goodread-book-search.herokuapp.com/
+### URL: https://goodread-book-api.herokuapp.com/
 ### API Endpoints
 - [API](www.goodreads.com)
         - `/search/books` => Search Books . It calls  `search/index.xml` 
