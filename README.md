@@ -6,6 +6,15 @@
         - `/search/books` => Search Books . It calls  `search/index.xml` 
         - `/bookDetails` => Get Book Details. It calls `book/show/`
 
+### Configuration 
+- Create `.env` file & Add
+```
+API_KEY=<YOUR_API_KEY>
+API_URL=https://www.goodreads.com
+PORT=5000
+```
+- run `npm run dev` To Start Development Server. `Nodemon` used for live reload.
+
 # Features 
 1. It can support all GET Goodread APIs with ALL parameters. But restriced on path.                                    
 # Future/TODO Implementation:
@@ -20,14 +29,6 @@ Some of the things that I want to implement in the future version are:
 
 
 
-### Configuration 
-- Create `.env` file & Add
-```
-API_KEY=<YOUR_API_KEY>
-API_URL=https://www.goodreads.com
-PORT=5000
-```
-- run `npm run dev` To Start Development Server. `Nodemon` used for live reload.
 
 ### Folder Structure & Details
 ```
