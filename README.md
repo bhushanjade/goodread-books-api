@@ -4,6 +4,7 @@
 ### API Endpoints
 - [API](www.goodreads.com)
         - `/search/books` => Search Books . It calls  `search/index.xml` 
+       
         - `/bookDetails` => Get Book Details. It calls `book/show/`
 
 ### Configuration 
